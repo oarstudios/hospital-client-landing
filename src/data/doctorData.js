@@ -504,7 +504,7 @@ const doctorData = {
   designation:
     "Hematologist, Bone Marrow Transplant & Cellular Therapy Specialist",
   qualification:
-    "MD, DM Clinical Hematology, Haemato-Oncologist, BMT & CAR-T Specialist, ex-TATA ACTREC",
+    "MD, DM Clinical Hematology, Haemato-Oncologist, BMT Specialist",
 
   rating: "5.0",
   reviews: "100+ Ratings",
