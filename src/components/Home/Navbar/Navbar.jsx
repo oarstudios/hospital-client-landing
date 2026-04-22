@@ -1,7 +1,10 @@
 import "./Navbar.css";
 import logo from "../../../assets/ICTC_Logo.png";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* TOP BAR */}
@@ -21,14 +24,17 @@ const Navbar = () => {
       {/* NAVBAR */}
       <div className="navbar-wrapper">
         <nav className="navbar">
-          
+
           {/* LOGO */}
           <div className="logo">
             <img src={logo} alt="ICTC Logo" />
           </div>
 
           {/* BUTTON */}
-          <button className="appointment-btn">
+          <button
+            className="appointment-btn"
+            onClick={() => navigate("/knowMore")}
+          >
             Book an Appointment
           </button>
 

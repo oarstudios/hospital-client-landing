@@ -87,22 +87,7 @@
 }
 
 /* PHONE BADGE */
-.map-phone-badge {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  background: rgba(48, 45, 49, 1);
-  border: 1px solid rgba(63, 34, 74, 1);
-  color: rgba(255, 255, 255, 1);
-  padding: 10px 16px;
-  border-radius: 16px;
-  font-size: 20px;
-  font-weight: 700;
-  z-index: 10;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
+
 
 
 
@@ -312,4 +297,64 @@
   /* font-size: 24px; */
   font-weight: 800;
   text-decoration: none;
+}
+
+
+.map-phone-badge {
+  position: absolute;
+  bottom: 120px;   /* 👈 move to bottom like screenshot */
+  left: 20px;
+
+  background: rgba(48, 45, 49, 1);
+  color: #fff;
+
+  padding: 10px 16px;
+  border-radius: 14px;
+
+  font-size: 16px;
+  font-weight: 700;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  z-index: 10;
+}
+
+.map-address {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+
+  background: rgba(48, 45, 49, 1);
+  color: #fff;
+
+  padding: 18px;
+  border-radius: 16px;
+
+  font-size: 15px;
+  font-weight: 500;
+
+  line-height: 1.5;
+}
+
+.address-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.location-dot {
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+.network-map {
+  flex: 1;
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 720px;
+  background: #000; /* fallback */
 }

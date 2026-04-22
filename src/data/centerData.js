@@ -407,7 +407,7 @@ lng: 72.8878,
     lat: 19.2183, // update exact latitude if needed
     lng: 72.9781, // update exact longitude if needed
 
-    address: "Thane, Maharashtra", // add full Thane address here
+    address: "Office 308, Hubtown Rhythm, Madanlal Dhingra Rd, opp. Jain Mandir, Panch Pakhdi, Thane West, Thane, Maharashtra 400602", // add full Thane address here
 
     timing: "Mon – Sat 9:00 a.m. to 9:00 p.m.",
 
