@@ -15,7 +15,7 @@ const ServicesAtICTC = () => {
   );
 
   return (
-    <section className="services-ictc">
+    <section className="services-ictc" id="services-at-ictc">
       <h2 className="services-title">Services Offered at ICTC</h2>
 
       <div className="services-grid">
@@ -23,7 +23,7 @@ const ServicesAtICTC = () => {
           <div
             key={slug}
             className="service-card"
-            onClick={() => navigate(`/service/${slug}`)}
+            onClick={() => navigate("/contactUs")}
           >
             <div className="service-icon">
               <img src={service.icon} alt={service.name} />

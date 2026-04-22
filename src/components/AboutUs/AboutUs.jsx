@@ -18,7 +18,7 @@ const stats = [
     title: "Centres & Growing",
     desc: "Largest Cancer Care Chain in Mumbai",
     showArrow: true,
-    // link: "/allCenters", // ✅ ADD
+    link: "#network-of-care",
   },
   {
     value: "25000+",
@@ -31,7 +31,7 @@ const stats = [
     title: "Cancer Care Services",
     desc: "Largest Cancer Care Chain in Mumbai",
     showArrow: true,
-    // link: "/AllService", // ✅ ADD
+    link: "#services-at-ictc",
   },
 ];
 
@@ -40,7 +40,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <section className="ictc-about">
+      <section className="ictc-about" id="about-us">
         {/* CONTENT */}
         <h2 className="ictc-about-title">About ICTC</h2>
 
@@ -65,7 +65,16 @@ const AboutUs = () => {
             <div
               className="ictc-stat-card"
               key={index}
-              onClick={() => item.link && navigate(item.link)}
+              onClick={() => {
+                if (item.link) {
+                  if (item.link.startsWith("#")) {
+                    const element = document.querySelector(item.link);
+                    element?.scrollIntoView({ behavior: "smooth" });
+                  } else {
+                    navigate(item.link);
+                  }
+                }
+              }}
               style={{ cursor: item.link ? "pointer" : "default" }}
             >
               <div className="ictc-stat-top">

@@ -28,11 +28,11 @@ import bmtHero from "../assets/Bone Marrow Transplant.webp";
 import bmt1 from "../assets/px-conversions/BMT1.webp";
 import bmt2 from "../assets/px-conversions/BMT2.webp";
 
-/* ================= CAR-T THERAPY ================= */
-import cartIcon from "../assets/Ellipse 1 (6).png";
-import cartHero from "../assets/CART Cell Therapy.webp";
-import cart1 from "../assets/px-conversions/cart 1.webp";
-import cart2 from "../assets/px-conversions/cart 2.webp";
+// /* ================= CAR-T THERAPY ================= */
+// import cartIcon from "../assets/Ellipse 1 (6).png";
+// import cartHero from "../assets/CART Cell Therapy.webp";
+// import cart1 from "../assets/px-conversions/cart 1.webp";
+// import cart2 from "../assets/px-conversions/cart 2.webp";
 
 // import boneMarrowIcon from "../assets/Services Icons/Services Icons/Bone Marrow Procedures.webp";
 // import boneMarrowHero from "../assets/Services Images/Services Images/Bone Marrow Procedures.webp";
@@ -44,20 +44,20 @@ import cart2 from "../assets/px-conversions/cart 2.webp";
 // import nutrition1 from "../assets/px-conversions/diet1.webp";
 // import nutrition2 from "../assets/px-conversions/diet2.webp";
 
-// import molecularIcon from "../assets/Services Icons/Services Icons/Molecular & Genetic Testing.webp";
-// import molecularHero from "../assets/Services Images/Services Images/Molecular & Genetic Testing.webp";
-// import molecular1 from "../assets/px-conversions/genetic1.webp";
-// import molecular2 from "../assets/px-conversions/genetic2.webp";
+import molecularIcon from "../assets/Services Icons/Services Icons/Molecular & Genetic Testing.webp";
+import molecularHero from "../assets/Services Images/Services Images/Molecular & Genetic Testing.webp";
+import molecular1 from "../assets/px-conversions/genetic1.webp";
+import molecular2 from "../assets/px-conversions/genetic2.webp";
 
 // import hormonalIcon from "../assets/Services Icons/Services Icons/Hormonal Therapy.webp";
 // import hormonalHero from "../assets/px-conversions/hormon1.webp";
 // import hormonal1 from "../assets/px-conversions/hormon1.webp";
 // import hormonal2 from "../assets/px-conversions/hormon2.webp";
 
-// import palliativeIcon from "../assets/Services Icons/Services Icons/Palliative & Supportive Care.webp";
-// import palliativeHero from "../assets/Services Images/Services Images/Palliative & Supportive Care.webp";
-// import palliative1 from "../assets/px-conversions/PainPall1.webp";
-// import palliative2 from "../assets/px-conversions/PainPall2.webp";
+import palliativeIcon from "../assets/Services Icons/Services Icons/Palliative & Supportive Care.webp";
+import palliativeHero from "../assets/Services Images/Services Images/Palliative & Supportive Care.webp";
+import palliative1 from "../assets/px-conversions/PainPall1.webp";
+import palliative2 from "../assets/px-conversions/PainPall2.webp";
 
 import screeningIcon from "../assets/Services Icons/Services Icons/Cancer Vaccination & Screening.webp";
 import screeningHero from "../assets/Services Images/Services Images/Cancer Vaccination & Screening.webp";
@@ -640,127 +640,127 @@ const serviceData = {
   //   ],
   // },
 
-  "car-t-cell-therapy-molecular-therapy": {
-    name: "CAR-T Cell & Molecular Cancer Therapy",
-    category: "Treatment Modalities",
-    heroTitle:
-      "CAR-T Cell And Molecular Cancer Therapy At Indian Cancer Treatment Centre",
-    icon: cartIcon,
-    heroImage: cartHero,
-    contentImages: [cart1, cart2],
+  // "car-t-cell-therapy-molecular-therapy": {
+  //   name: "CAR-T Cell & Molecular Cancer Therapy",
+  //   category: "Treatment Modalities",
+  //   heroTitle:
+  //     "CAR-T Cell And Molecular Cancer Therapy At Indian Cancer Treatment Centre",
+  //   icon: cartIcon,
+  //   heroImage: cartHero,
+  //   contentImages: [cart1, cart2],
 
-    introduction:
-      "CAR-T cell therapy and molecular cancer therapy are advanced forms of precision oncology that focus on the genetic and molecular characteristics of cancer. At ICTC, these therapies are considered after careful evaluation and are used in selected cases where they are clinically appropriate.",
+  //   introduction:
+  //     "CAR-T cell therapy and molecular cancer therapy are advanced forms of precision oncology that focus on the genetic and molecular characteristics of cancer. At ICTC, these therapies are considered after careful evaluation and are used in selected cases where they are clinically appropriate.",
 
-    overview: [
-      "These therapies are part of precision oncology.",
-      "Treatment decisions are based on genetic and molecular properties of cancer.",
-      "They are often considered when standard treatments are not effective.",
-      "Careful evaluation is required before recommending these therapies.",
-      "Patient safety and clinical evidence guide treatment decisions.",
-    ],
+  //   overview: [
+  //     "These therapies are part of precision oncology.",
+  //     "Treatment decisions are based on genetic and molecular properties of cancer.",
+  //     "They are often considered when standard treatments are not effective.",
+  //     "Careful evaluation is required before recommending these therapies.",
+  //     "Patient safety and clinical evidence guide treatment decisions.",
+  //   ],
 
-    subtypesOfTherapy: {
-      Types: ["CAR-T cell therapy", "Molecular cancer therapy"],
-    },
+  //   subtypesOfTherapy: {
+  //     Types: ["CAR-T cell therapy", "Molecular cancer therapy"],
+  //   },
 
-    cancersTreated: {
-      Overview: [
-        "These therapies are used in selected cancers based on clinical criteria and molecular testing.",
-      ],
-      Examples: [
-        "Leukemia",
-        "Lymphoma",
-        "Lung cancer",
-        "Breast cancer",
-        "Colorectal cancer",
-        "Blood related malignancies",
-      ],
-    },
+  //   cancersTreated: {
+  //     Overview: [
+  //       "These therapies are used in selected cancers based on clinical criteria and molecular testing.",
+  //     ],
+  //     Examples: [
+  //       "Leukemia",
+  //       "Lymphoma",
+  //       "Lung cancer",
+  //       "Breast cancer",
+  //       "Colorectal cancer",
+  //       "Blood related malignancies",
+  //     ],
+  //   },
 
-    benefits: [
-      "Provides precision based cancer treatment.",
-      "Targets cancer at the molecular or cellular level.",
-      "May be beneficial when other treatments are not effective.",
-      "Guided by genetic and molecular testing.",
-    ],
+  //   benefits: [
+  //     "Provides precision based cancer treatment.",
+  //     "Targets cancer at the molecular or cellular level.",
+  //     "May be beneficial when other treatments are not effective.",
+  //     "Guided by genetic and molecular testing.",
+  //   ],
 
-    downsides: [
-      "Not suitable for all patients.",
-      "Requires advanced diagnostic testing.",
-      "May involve complex treatment planning.",
-      "Potential for significant side effects.",
-    ],
+  //   downsides: [
+  //     "Not suitable for all patients.",
+  //     "Requires advanced diagnostic testing.",
+  //     "May involve complex treatment planning.",
+  //     "Potential for significant side effects.",
+  //   ],
 
-    methodsOfAdministration: {
-      CAR_T_Cell_Therapy: [
-        "T-cells are collected from the patient.",
-        "Cells are genetically modified in a laboratory.",
-        "Modified cells are infused back into the bloodstream.",
-      ],
-      MolecularTherapy: [
-        "Treatment is selected based on molecular and genetic targets.",
-        "Therapies are administered based on specific drug protocols.",
-      ],
-    },
+  //   methodsOfAdministration: {
+  //     CAR_T_Cell_Therapy: [
+  //       "T-cells are collected from the patient.",
+  //       "Cells are genetically modified in a laboratory.",
+  //       "Modified cells are infused back into the bloodstream.",
+  //     ],
+  //     MolecularTherapy: [
+  //       "Treatment is selected based on molecular and genetic targets.",
+  //       "Therapies are administered based on specific drug protocols.",
+  //     ],
+  //   },
 
-    sideEffectsAndRisks: {
-      CommonSideEffects: ["Fever", "Fatigue", "Inflammation related symptoms"],
-      SeriousSideEffects: [
-        "Immune related reactions",
-        "Neurological symptoms",
-        "Infections",
-      ],
-      AdditionalNotes: [
-        "Close monitoring is required during and after treatment.",
-      ],
-    },
+  //   sideEffectsAndRisks: {
+  //     CommonSideEffects: ["Fever", "Fatigue", "Inflammation related symptoms"],
+  //     SeriousSideEffects: [
+  //       "Immune related reactions",
+  //       "Neurological symptoms",
+  //       "Infections",
+  //     ],
+  //     AdditionalNotes: [
+  //       "Close monitoring is required during and after treatment.",
+  //     ],
+  //   },
 
-    precautions: [
-      "Regular clinical monitoring is required.",
-      "Report symptoms early.",
-      "Follow medical guidance strictly.",
-    ],
+  //   precautions: [
+  //     "Regular clinical monitoring is required.",
+  //     "Report symptoms early.",
+  //     "Follow medical guidance strictly.",
+  //   ],
 
-    postTreatmentCare: [
-      "Ongoing monitoring of treatment response.",
-      "Management of side effects.",
-      "Supportive care as needed.",
-    ],
+  //   postTreatmentCare: [
+  //     "Ongoing monitoring of treatment response.",
+  //     "Management of side effects.",
+  //     "Supportive care as needed.",
+  //   ],
 
-    dosAndDonts: {
-      Dos: [
-        "Attend All Follow Ups",
-        "Maintain Hygiene",
-        "Report Symptoms Promptly",
-        "Follow Medical Advice",
-      ],
-      Donts: ["Do Not Ignore Symptoms", "Avoid Skipping Follow Ups"],
-    },
+  //   dosAndDonts: {
+  //     Dos: [
+  //       "Attend All Follow Ups",
+  //       "Maintain Hygiene",
+  //       "Report Symptoms Promptly",
+  //       "Follow Medical Advice",
+  //     ],
+  //     Donts: ["Do Not Ignore Symptoms", "Avoid Skipping Follow Ups"],
+  //   },
 
-    faqs: [
-      {
-        question: "Is CAR-T Cell Therapy Suitable For All Cancer Patients?",
-        answer:
-          "No. It is mainly used for certain blood cancers and only for patients who meet specific medical criteria.",
-      },
-      {
-        question: "Are Molecular Therapies The Same As Chemotherapy?",
-        answer:
-          "No. Molecular therapies target specific genetic pathways, while chemotherapy affects rapidly dividing cells.",
-      },
-      {
-        question: "Do These Treatments Guarantee A Cure?",
-        answer:
-          "No. Outcomes depend on cancer type and individual patient factors.",
-      },
-      {
-        question: "Are There Risks Involved With These Treatments?",
-        answer:
-          "Yes. These therapies may have significant side effects and require careful monitoring.",
-      },
-    ],
-  },
+  //   faqs: [
+  //     {
+  //       question: "Is CAR-T Cell Therapy Suitable For All Cancer Patients?",
+  //       answer:
+  //         "No. It is mainly used for certain blood cancers and only for patients who meet specific medical criteria.",
+  //     },
+  //     {
+  //       question: "Are Molecular Therapies The Same As Chemotherapy?",
+  //       answer:
+  //         "No. Molecular therapies target specific genetic pathways, while chemotherapy affects rapidly dividing cells.",
+  //     },
+  //     {
+  //       question: "Do These Treatments Guarantee A Cure?",
+  //       answer:
+  //         "No. Outcomes depend on cancer type and individual patient factors.",
+  //     },
+  //     {
+  //       question: "Are There Risks Involved With These Treatments?",
+  //       answer:
+  //         "Yes. These therapies may have significant side effects and require careful monitoring.",
+  //     },
+  //   ],
+  // },
 
   "radiation-therapy": {
     name: "Radiation Therapy",
@@ -1393,317 +1393,317 @@ const serviceData = {
     ],
   },
 
-  // "molecular-genetic-testing": {
-  //   name: "Molecular & Genetic Testing",
-  //   category: "Diagnostic & Support Services",
-  //   heroTitle: "Molecular & Genetic Testing At ICTC",
-  //   icon: molecularIcon,
-  //   heroImage: molecularHero,
-  //   contentImages: [molecular1, molecular2],
+  "molecular-genetic-testing": {
+    name: "Genetic Counselling",
+    category: "Diagnostic & Support Services",
+    heroTitle: "Molecular & Genetic Testing At ICTC",
+    icon: molecularIcon,
+    heroImage: molecularHero,
+    contentImages: [molecular1, molecular2],
 
-  //   introduction:
-  //     "Molecular and genetic testing are advanced diagnostic tools used to analyze genes, proteins, and other molecular changes in cancer cells. These tests help identify specific genetic mutations or biomarkers that drive cancer growth. The results guide personalized treatment decisions, predict treatment response, and assess inherited cancer risk.",
+    introduction:
+      "Molecular and genetic testing are advanced diagnostic tools used to analyze genes, proteins, and other molecular changes in cancer cells. These tests help identify specific genetic mutations or biomarkers that drive cancer growth. The results guide personalized treatment decisions, predict treatment response, and assess inherited cancer risk.",
 
-  //   overview: [
-  //     "Molecular testing examines changes within cancer cells.",
-  //     "Genetic testing evaluates inherited or acquired gene mutations.",
-  //     "These tests support precision and personalized cancer care.",
-  //     "Results help doctors choose the most effective targeted or immunotherapy.",
-  //     "Testing is increasingly essential in modern oncology treatment planning.",
-  //   ],
+    overview: [
+      "Molecular testing examines changes within cancer cells.",
+      "Genetic testing evaluates inherited or acquired gene mutations.",
+      "These tests support precision and personalized cancer care.",
+      "Results help doctors choose the most effective targeted or immunotherapy.",
+      "Testing is increasingly essential in modern oncology treatment planning.",
+    ],
 
-  //   typesOfTesting: {
-  //     MolecularTesting: [
-  //       "Analyzes DNA, RNA, or proteins within cancer cells.",
-  //       "Identifies mutations that influence cancer behavior.",
-  //       "Used to select targeted therapies or immunotherapies.",
-  //     ],
-  //     GeneticTesting: [
-  //       "Detects inherited gene mutations passed through families.",
-  //       "Helps assess cancer risk in patients and relatives.",
-  //       "Supports preventive strategies and early detection.",
-  //     ],
-  //   },
+    typesOfTesting: {
+      MolecularTesting: [
+        "Analyzes DNA, RNA, or proteins within cancer cells.",
+        "Identifies mutations that influence cancer behavior.",
+        "Used to select targeted therapies or immunotherapies.",
+      ],
+      GeneticTesting: [
+        "Detects inherited gene mutations passed through families.",
+        "Helps assess cancer risk in patients and relatives.",
+        "Supports preventive strategies and early detection.",
+      ],
+    },
 
-  //   commonTestMethods: {
-  //     TissueBiopsyTesting: [
-  //       "Cancer tissue is obtained through biopsy or surgery.",
-  //       "Provides detailed molecular information.",
-  //       "Often considered the gold standard for testing.",
-  //     ],
-  //     LiquidBiopsy: [
-  //       "Uses blood samples to detect circulating tumor DNA.",
-  //       "Minimally invasive alternative to tissue biopsy.",
-  //       "Useful for monitoring treatment response and resistance.",
-  //     ],
-  //     NextGenerationSequencing: [
-  //       "Advanced technology that analyzes multiple genes at once.",
-  //       "Detects rare and complex mutations.",
-  //       "Widely used in comprehensive cancer profiling.",
-  //     ],
-  //   },
+    commonTestMethods: {
+      TissueBiopsyTesting: [
+        "Cancer tissue is obtained through biopsy or surgery.",
+        "Provides detailed molecular information.",
+        "Often considered the gold standard for testing.",
+      ],
+      LiquidBiopsy: [
+        "Uses blood samples to detect circulating tumor DNA.",
+        "Minimally invasive alternative to tissue biopsy.",
+        "Useful for monitoring treatment response and resistance.",
+      ],
+      NextGenerationSequencing: [
+        "Advanced technology that analyzes multiple genes at once.",
+        "Detects rare and complex mutations.",
+        "Widely used in comprehensive cancer profiling.",
+      ],
+    },
 
-  //   cancersTreated: {
-  //     Overview: [
-  //       "Molecular and genetic testing is applicable to many cancer types.",
-  //       "Testing helps determine prognosis and therapy selection.",
-  //     ],
-  //     Examples: [
-  //       "Breast Cancer",
-  //       "Lung Cancer",
-  //       "Colorectal Cancer",
-  //       "Ovarian Cancer",
-  //       "Prostate Cancer",
-  //       "Leukemia",
-  //       "Lymphoma",
-  //       "Melanoma",
-  //     ],
-  //   },
+    cancersTreated: {
+      Overview: [
+        "Molecular and genetic testing is applicable to many cancer types.",
+        "Testing helps determine prognosis and therapy selection.",
+      ],
+      Examples: [
+        "Breast Cancer",
+        "Lung Cancer",
+        "Colorectal Cancer",
+        "Ovarian Cancer",
+        "Prostate Cancer",
+        "Leukemia",
+        "Lymphoma",
+        "Melanoma",
+      ],
+    },
 
-  //   biomarkersAndMutations: {
-  //     Overview: [
-  //       "Biomarkers are measurable indicators of cancer behavior.",
-  //       "Genetic mutations help guide therapy decisions.",
-  //     ],
-  //     Examples: [
-  //       "BRCA1 And BRCA2",
-  //       "EGFR",
-  //       "ALK",
-  //       "KRAS",
-  //       "BRAF",
-  //       "HER2",
-  //       "PD-L1",
-  //       "MSI-H / dMMR",
-  //     ],
-  //   },
+    biomarkersAndMutations: {
+      Overview: [
+        "Biomarkers are measurable indicators of cancer behavior.",
+        "Genetic mutations help guide therapy decisions.",
+      ],
+      Examples: [
+        "BRCA1 And BRCA2",
+        "EGFR",
+        "ALK",
+        "KRAS",
+        "BRAF",
+        "HER2",
+        "PD-L1",
+        "MSI-H / dMMR",
+      ],
+    },
 
-  //   benefits: [
-  //     "Enables personalized and targeted treatment planning.",
-  //     "Avoids unnecessary or ineffective therapies.",
-  //     "Predicts treatment response and resistance.",
-  //     "Helps assess inherited cancer risk.",
-  //     "Improves treatment outcomes and survival rates.",
-  //   ],
+    benefits: [
+      "Enables personalized and targeted treatment planning.",
+      "Avoids unnecessary or ineffective therapies.",
+      "Predicts treatment response and resistance.",
+      "Helps assess inherited cancer risk.",
+      "Improves treatment outcomes and survival rates.",
+    ],
 
-  //   limitations: [
-  //     "Not all cancers have identifiable mutations.",
-  //     "Results may take time depending on test complexity.",
-  //     "Some mutations may not yet have approved treatments.",
-  //     "Interpretation requires specialized expertise.",
-  //   ],
+    limitations: [
+      "Not all cancers have identifiable mutations.",
+      "Results may take time depending on test complexity.",
+      "Some mutations may not yet have approved treatments.",
+      "Interpretation requires specialized expertise.",
+    ],
 
-  //   preparationAndProcess: {
-  //     Preparation: [
-  //       "Doctor reviews medical and family history.",
-  //       "Consent is obtained before testing.",
-  //       "Sample type is selected based on cancer type.",
-  //     ],
-  //     Process: [
-  //       "Sample is collected through biopsy or blood draw.",
-  //       "Laboratory analysis identifies molecular changes.",
-  //       "Results are reviewed by oncologists and genetic specialists.",
-  //     ],
-  //   },
+    preparationAndProcess: {
+      Preparation: [
+        "Doctor reviews medical and family history.",
+        "Consent is obtained before testing.",
+        "Sample type is selected based on cancer type.",
+      ],
+      Process: [
+        "Sample is collected through biopsy or blood draw.",
+        "Laboratory analysis identifies molecular changes.",
+        "Results are reviewed by oncologists and genetic specialists.",
+      ],
+    },
 
-  //   resultsAndInterpretation: {
-  //     Overview: [
-  //       "Results guide treatment and surveillance strategies.",
-  //       "Not all detected mutations require immediate action.",
-  //     ],
-  //     PossibleOutcomes: [
-  //       "Actionable mutation identified",
-  //       "No significant mutation detected",
-  //       "Variant of uncertain significance",
-  //       "Inherited mutation detected",
-  //     ],
-  //   },
+    resultsAndInterpretation: {
+      Overview: [
+        "Results guide treatment and surveillance strategies.",
+        "Not all detected mutations require immediate action.",
+      ],
+      PossibleOutcomes: [
+        "Actionable mutation identified",
+        "No significant mutation detected",
+        "Variant of uncertain significance",
+        "Inherited mutation detected",
+      ],
+    },
 
-  //   postTestingCare: [
-  //     "Results are discussed in detail with the oncology team.",
-  //     "Genetic counseling may be recommended.",
-  //     "Treatment plans are adjusted based on findings.",
-  //   ],
+    postTestingCare: [
+      "Results are discussed in detail with the oncology team.",
+      "Genetic counseling may be recommended.",
+      "Treatment plans are adjusted based on findings.",
+    ],
 
-  //   dosAndDonts: {
-  //     Dos: [
-  //       "Discuss Test Results With Your Oncologist",
-  //       "Follow Recommended Treatment Changes",
-  //       "Inform Family Members If Inherited Mutations Are Found",
-  //       "Attend Genetic Counseling If Advised",
-  //     ],
-  //     Donts: [
-  //       "Do Not Panic Over Genetic Findings",
-  //       "Avoid Self-Interpreting Results",
-  //       "Do Not Delay Follow-Up Appointments",
-  //     ],
-  //   },
+    dosAndDonts: {
+      Dos: [
+        "Discuss Test Results With Your Oncologist",
+        "Follow Recommended Treatment Changes",
+        "Inform Family Members If Inherited Mutations Are Found",
+        "Attend Genetic Counseling If Advised",
+      ],
+      Donts: [
+        "Do Not Panic Over Genetic Findings",
+        "Avoid Self-Interpreting Results",
+        "Do Not Delay Follow-Up Appointments",
+      ],
+    },
 
-  //   faqs: [
-  //     {
-  //       question: "Is Molecular Testing Required For All Cancer Patients?",
-  //       answer:
-  //         "Not all cancers require molecular testing, but it is strongly recommended for cancers where targeted or immunotherapy options are available.",
-  //     },
-  //     {
-  //       question: "Can Genetic Testing Predict Cancer Risk?",
-  //       answer:
-  //         "Yes, genetic testing can identify inherited mutations that increase cancer risk, allowing for early screening and preventive strategies.",
-  //     },
-  //   ],
-  // },
+    faqs: [
+      {
+        question: "Is Molecular Testing Required For All Cancer Patients?",
+        answer:
+          "Not all cancers require molecular testing, but it is strongly recommended for cancers where targeted or immunotherapy options are available.",
+      },
+      {
+        question: "Can Genetic Testing Predict Cancer Risk?",
+        answer:
+          "Yes, genetic testing can identify inherited mutations that increase cancer risk, allowing for early screening and preventive strategies.",
+      },
+    ],
+  },
 
-  // "palliative-cancer-care": {
-  //   name: "Palliative Cancer Care",
-  //   category: "Diagnostic & Support Services",
-  //   heroTitle: "Palliative Cancer Care At Indian Cancer Treatment Centre",
-  //   icon: palliativeIcon,
-  //   heroImage: palliativeHero,
-  //   contentImages: [palliative1, palliative2],
+  "palliative-cancer-care": {
+    name: "Palliative Care",
+    category: "Diagnostic & Support Services",
+    heroTitle: "Palliative Cancer Care At Indian Cancer Treatment Centre",
+    icon: palliativeIcon,
+    heroImage: palliativeHero,
+    contentImages: [palliative1, palliative2],
 
-  //   introduction:
-  //     "Palliative cancer care focuses on improving comfort, strength, and quality of life for patients living with cancer. At ICTC, it is integrated into the overall treatment plan to support patients physically, emotionally, and practically throughout their journey.",
+    introduction:
+      "Palliative cancer care focuses on improving comfort, strength, and quality of life for patients living with cancer. At ICTC, it is integrated into the overall treatment plan to support patients physically, emotionally, and practically throughout their journey.",
 
-  //   overview: [
-  //     "Palliative care helps manage symptoms and treatment side effects.",
-  //     "It supports emotional and psychological well being.",
-  //     "It is provided alongside active cancer treatment.",
-  //     "It focuses on patient comfort and quality of life.",
-  //     "It supports both patients and their families.",
-  //   ],
+    overview: [
+      "Palliative care helps manage symptoms and treatment side effects.",
+      "It supports emotional and psychological well being.",
+      "It is provided alongside active cancer treatment.",
+      "It focuses on patient comfort and quality of life.",
+      "It supports both patients and their families.",
+    ],
 
-  //   coreServices: {
-  //     SymptomManagement: [
-  //       "Reduction of cancer related pain",
-  //       "Management of breathlessness",
-  //       "Relief from fatigue and weakness",
-  //       "Control of nausea and vomiting",
-  //       "Management of appetite and weight changes",
-  //     ],
-  //     EmotionalAndPsychologicalSupport: [
-  //       "Support for emotional distress",
-  //       "Counseling for anxiety and depression",
-  //       "Support for patients and families",
-  //     ],
-  //     SupportiveMedicalCare: [
-  //       "Management of treatment side effects",
-  //       "Support during chemotherapy, immunotherapy, and radiation",
-  //       "Assistance in decision making and understanding treatment",
-  //     ],
-  //   },
+    coreServices: {
+      SymptomManagement: [
+        "Reduction of cancer related pain",
+        "Management of breathlessness",
+        "Relief from fatigue and weakness",
+        "Control of nausea and vomiting",
+        "Management of appetite and weight changes",
+      ],
+      EmotionalAndPsychologicalSupport: [
+        "Support for emotional distress",
+        "Counseling for anxiety and depression",
+        "Support for patients and families",
+      ],
+      SupportiveMedicalCare: [
+        "Management of treatment side effects",
+        "Support during chemotherapy, immunotherapy, and radiation",
+        "Assistance in decision making and understanding treatment",
+      ],
+    },
 
-  //   supportiveTherapies: {
-  //     PainManagement: [
-  //       "Individualized pain control plans",
-  //       "Regular assessment and adjustment of medications",
-  //       "Safe and effective pain relief strategies",
-  //     ],
-  //     NutritionalSupport: [
-  //       "Guidance for maintaining strength and nutrition",
-  //       "Support for appetite and weight management",
-  //     ],
-  //     RehabilitationAndSupport: [
-  //       "Support for daily activities",
-  //       "Management of fatigue",
-  //       "Improvement of overall comfort",
-  //     ],
-  //   },
+    supportiveTherapies: {
+      PainManagement: [
+        "Individualized pain control plans",
+        "Regular assessment and adjustment of medications",
+        "Safe and effective pain relief strategies",
+      ],
+      NutritionalSupport: [
+        "Guidance for maintaining strength and nutrition",
+        "Support for appetite and weight management",
+      ],
+      RehabilitationAndSupport: [
+        "Support for daily activities",
+        "Management of fatigue",
+        "Improvement of overall comfort",
+      ],
+    },
 
-  //   conditionsSupported: {
-  //     Overview: [
-  //       "Palliative care supports patients at different stages of cancer.",
-  //     ],
-  //     Examples: [
-  //       "Cancer related pain",
-  //       "Breathlessness",
-  //       "Fatigue",
-  //       "Nausea and vomiting",
-  //       "Emotional distress",
-  //       "Sleep disturbances",
-  //     ],
-  //   },
+    conditionsSupported: {
+      Overview: [
+        "Palliative care supports patients at different stages of cancer.",
+      ],
+      Examples: [
+        "Cancer related pain",
+        "Breathlessness",
+        "Fatigue",
+        "Nausea and vomiting",
+        "Emotional distress",
+        "Sleep disturbances",
+      ],
+    },
 
-  //   benefits: [
-  //     "Improves quality of life",
-  //     "Reduces physical discomfort",
-  //     "Supports emotional well being",
-  //     "Helps patients tolerate treatment better",
-  //     "Provides support to families and caregivers",
-  //   ],
+    benefits: [
+      "Improves quality of life",
+      "Reduces physical discomfort",
+      "Supports emotional well being",
+      "Helps patients tolerate treatment better",
+      "Provides support to families and caregivers",
+    ],
 
-  //   limitations: [
-  //     "Does not directly treat or cure cancer",
-  //     "Requires continuous assessment and care",
-  //   ],
+    limitations: [
+      "Does not directly treat or cure cancer",
+      "Requires continuous assessment and care",
+    ],
 
-  //   careApproach: {
-  //     MultidisciplinaryTeam: [
-  //       "Oncologists",
-  //       "Palliative care specialists",
-  //       "Nursing staff",
-  //       "Supportive care professionals",
-  //     ],
-  //     CareSettings: [
-  //       "Hospital based care",
-  //       "Outpatient services",
-  //       "Integrated with oncology treatment",
-  //     ],
-  //   },
+    careApproach: {
+      MultidisciplinaryTeam: [
+        "Oncologists",
+        "Palliative care specialists",
+        "Nursing staff",
+        "Supportive care professionals",
+      ],
+      CareSettings: [
+        "Hospital based care",
+        "Outpatient services",
+        "Integrated with oncology treatment",
+      ],
+    },
 
-  //   preparationAndProcess: {
-  //     Preparation: [
-  //       "Assessment of symptoms and concerns",
-  //       "Discussion of patient needs and goals",
-  //     ],
-  //     Process: [
-  //       "Personalized care planning",
-  //       "Ongoing symptom management",
-  //       "Regular review and adjustment of care",
-  //     ],
-  //   },
+    preparationAndProcess: {
+      Preparation: [
+        "Assessment of symptoms and concerns",
+        "Discussion of patient needs and goals",
+      ],
+      Process: [
+        "Personalized care planning",
+        "Ongoing symptom management",
+        "Regular review and adjustment of care",
+      ],
+    },
 
-  //   postCareSupport: [
-  //     "Continuous monitoring and follow up",
-  //     "Emotional and psychological support",
-  //     "Guidance for home care",
-  //   ],
+    postCareSupport: [
+      "Continuous monitoring and follow up",
+      "Emotional and psychological support",
+      "Guidance for home care",
+    ],
 
-  //   dosAndDonts: {
-  //     Dos: [
-  //       "Report Symptoms Early",
-  //       "Follow Care Plan",
-  //       "Communicate With Care Team",
-  //       "Seek Support When Needed",
-  //     ],
-  //     Donts: [
-  //       "Do Not Ignore Pain Or Symptoms",
-  //       "Avoid Self Medication",
-  //       "Do Not Hesitate To Ask For Help",
-  //     ],
-  //   },
+    dosAndDonts: {
+      Dos: [
+        "Report Symptoms Early",
+        "Follow Care Plan",
+        "Communicate With Care Team",
+        "Seek Support When Needed",
+      ],
+      Donts: [
+        "Do Not Ignore Pain Or Symptoms",
+        "Avoid Self Medication",
+        "Do Not Hesitate To Ask For Help",
+      ],
+    },
 
-  //   faqs: [
-  //     {
-  //       question: "Is Palliative Care Only For Terminal Cancer Patients?",
-  //       answer:
-  //         "No. Palliative care can be introduced at any stage of cancer and can be given alongside active treatment.",
-  //     },
-  //     {
-  //       question: "Does Palliative Care Mean Cancer Treatment Will Stop?",
-  //       answer:
-  //         "No. It supports patients during treatment and works alongside oncology therapies.",
-  //     },
-  //     {
-  //       question: "Can Palliative Care Help With Emotional Stress?",
-  //       answer:
-  //         "Yes. Emotional and psychological support is an important part of palliative care.",
-  //     },
-  //     {
-  //       question: "Does Every Cancer Patient Experience Pain?",
-  //       answer:
-  //         "Not always. However, when pain occurs, palliative care helps manage it effectively.",
-  //     },
-  //   ],
-  // },
+    faqs: [
+      {
+        question: "Is Palliative Care Only For Terminal Cancer Patients?",
+        answer:
+          "No. Palliative care can be introduced at any stage of cancer and can be given alongside active treatment.",
+      },
+      {
+        question: "Does Palliative Care Mean Cancer Treatment Will Stop?",
+        answer:
+          "No. It supports patients during treatment and works alongside oncology therapies.",
+      },
+      {
+        question: "Can Palliative Care Help With Emotional Stress?",
+        answer:
+          "Yes. Emotional and psychological support is an important part of palliative care.",
+      },
+      {
+        question: "Does Every Cancer Patient Experience Pain?",
+        answer:
+          "Not always. However, when pain occurs, palliative care helps manage it effectively.",
+      },
+    ],
+  },
 
   // "diet-nutrition": {
   //   name: "Diet & Nutrition",

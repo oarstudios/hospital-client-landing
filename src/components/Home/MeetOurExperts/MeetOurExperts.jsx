@@ -1,11 +1,13 @@
 import "./MeetOurExperts.css";
+import { useNavigate } from "react-router-dom";
 import doctorData from "../../../data/doctorData";
 
 const MeetOurExperts = () => {
-const doctors = Object.values(doctorData);
+  const navigate = useNavigate();
+  const doctors = Object.values(doctorData);
 
   return (
-    <section className="experts-section">
+    <section className="experts-section" id="meet-our-experts">
       {/* HEADER */}
       <div className="experts-header">
         <h2>Our Team of Experts</h2>
@@ -23,7 +25,7 @@ const doctors = Object.values(doctorData);
               <img src={doc.image} alt={doc.name} />
 
               <div className="doctor-hover">
-                <button className="view-profile-btn">
+                <button className="view-profile-btn" onClick={() => navigate("/contactUs")}>
                   Learn More <span>→</span>
                 </button>
               </div>
@@ -44,7 +46,7 @@ const doctors = Object.values(doctorData);
             </div>
 
             {/* TAG */}
-            <div className="doctor-tag">{doc.designation}</div>
+            {/* <div className="doctor-tag">{doc.designation}</div> */}
           </div>
         ))}
       </div>

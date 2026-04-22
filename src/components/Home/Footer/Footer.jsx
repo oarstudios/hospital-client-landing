@@ -3,6 +3,11 @@ import logo from "../../../assets/ICTC_Logo(long).png";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const handleScroll = (id) => {
+    const element = document.querySelector(id);
+    element?.scrollIntoView({ behavior: "smooth" });
+  };
+
   return (
     <footer className="footer">
       <div className="footer-container">
@@ -16,10 +21,30 @@ const Footer = () => {
 
         {/* NAV LINKS */}
         <div className="footer-links">
-          <Link to="/aboutUs">About Us</Link>
-          <Link to="/centres">Centres</Link>
-          <Link to="/cancers">Cancers We Treat</Link>
-          <Link to="/ourDoctors">Our Doctors</Link>
+          <button 
+            onClick={() => handleScroll("#about-us")}
+            className="footer-link-btn"
+          >
+            About Us
+          </button>
+          <button 
+            onClick={() => handleScroll("#network-of-care")}
+            className="footer-link-btn"
+          >
+            Centres
+          </button>
+          <button 
+            onClick={() => handleScroll("#cancers-we-treat")}
+            className="footer-link-btn"
+          >
+            Cancers We Treat
+          </button>
+          <button 
+            onClick={() => handleScroll("#meet-our-experts")}
+            className="footer-link-btn"
+          >
+            Our Doctors
+          </button>
         </div>
 
         {/* COPYRIGHT */}

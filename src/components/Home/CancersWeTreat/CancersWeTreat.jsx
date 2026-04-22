@@ -26,7 +26,7 @@ const CancersWeTreat = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="cancers-ictc">
+    <section className="cancers-ictc" id="cancers-we-treat">
       <h2 className="cancers-title">Cancers We Treat</h2>
 
       <div className="cancers-grid">
@@ -34,7 +34,7 @@ const CancersWeTreat = () => {
           <div
             key={index}
             className="cancer-card"
-            onClick={() => navigate(`/cancer/${cancer.slug}`)}
+            onClick={() => navigate("/contactUs")}
           >
             <div className="cancer-icon">
               <img src={cancer.icon} alt={cancer.title} />

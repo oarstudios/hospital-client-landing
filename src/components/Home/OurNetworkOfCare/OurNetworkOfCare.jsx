@@ -9,7 +9,7 @@ const OurNetworkOfCare = () => {
   const [activeCentre, setActiveCentre] = useState(centres[0]);
 
   return (
-    <section className="network-wrapper">
+    <section className="network-wrapper" id="network-of-care">
       <div className="network-container">
 
         {/* LEFT */}

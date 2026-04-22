@@ -10,14 +10,14 @@ const Navbar = () => {
       {/* TOP BAR */}
       <div className="top-bar">
         <span>
-          Mail Us at: <a href="mailto:info@ictconco.org">info@ictconco.org</a>
+          Mail Us at: info@ictconco.org
         </span>
 
         <span>
           ICTC Helpline:{" "}
-          <a href="tel:+918858855200" className="diffColor">
+          <span className="diffColor">
             885 885 5200
-          </a>
+          </span>
         </span>
       </div>
 

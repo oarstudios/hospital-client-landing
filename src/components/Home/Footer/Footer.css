@@ -37,6 +37,22 @@
   opacity: 0.8;
 }
 
+.footer-link-btn {
+  background: none;
+  border: none;
+  color: #693C79;
+  font-size: 20px;
+  font-weight: 400;
+  cursor: pointer;
+  transition: 0.2s;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+}
+
+.footer-link-btn:hover {
+  opacity: 0.8;
+}
+
 /* COPYRIGHT */
 .footer-copy {
   font-size: 14px;
@@ -52,6 +68,10 @@
 
   .footer-links {
     gap: 20px;
+    font-size: 14px;
+  }
+
+  .footer-link-btn {
     font-size: 14px;
   }
 
