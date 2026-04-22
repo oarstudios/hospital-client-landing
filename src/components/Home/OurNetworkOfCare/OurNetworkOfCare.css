@@ -1,6 +1,6 @@
 .network-wrapper {
   padding: 80px 40px;
-  background: rgba(48, 45, 49, 1);
+  background: #302d31;
   font-family: "DM Sans", sans-serif;
 }
 
@@ -8,7 +8,8 @@
   max-width: 1300px;
   margin: auto;
   display: flex;
-  gap: 48px;
+  gap: 60px;
+  align-items: flex-start;
 }
 
 /* LEFT */
@@ -19,7 +20,7 @@
 .network-left h2 {
   font-size: 40px;
   font-weight: 700;
-  color: rgba(236, 223, 242, 1);
+  color: #ecdef2;
   margin-bottom: 32px;
 }
 
@@ -33,112 +34,86 @@
 .location-pill {
   padding: 12px 20px;
   border-radius: 24px;
-  border: 1px solid rgba(250, 250, 250, 1);
+  border: 1px solid #fff;
   background: transparent;
-  color: rgba(255, 255, 255, 1);
-  font-size: 23px;
-  font-weight: 700;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
   cursor: pointer;
 }
 
 .location-pill.active {
-  
-  border: 1px solid rgba(250, 250, 250, 1);
-  background: rgba(236, 223, 242, 1);
-  color: rgba(63, 34, 74, 1);
-  font-size: 23px;
-  font-weight: 700;
-  cursor: pointer;
+  background: #ecdef2;
+  color: #3f224a;
 }
 
-/* STATS */
-.network-stats {
-  margin-top: 48px;
-}
+/* ================= RIGHT CARD ================= */
 
-.network-stats h1 {
-  font-size: 80px;
-  font-weight: 900;
-  color: rgba(209, 176, 224, 1);
-  margin-bottom: 8px;
-}
-
-.network-stats p {
-  font-size: 40px;
-  font-weight: 900;
-  color: rgba(250, 250, 250, 1);
-  line-height: 1.2;
-}
-
-/* RIGHT MAP */
-.network-map {
+.network-card {
   flex: 1;
-  position: relative;
+  background: #b89ec6;
   border-radius: 20px;
-  overflow: hidden;
-  height: 720px;
+  padding: 40px;
+  position: relative;
+  min-height: 360px;
 }
 
-/* MAP */
-.network-map iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
+/* TITLE */
+.card-title {
+  text-align: center;
+  font-size: 34px;
+  font-weight: 700;
+  color: #3f224a;
+  margin-bottom: 10rem;
 }
 
 /* PHONE BADGE */
+.phone-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 
+  background: #302d31;
+  color: #fff;
 
+  padding: 12px 18px;
+  border-radius: 14px;
 
+  font-size: 16px;
+  font-weight: 600;
 
-/* ================= RESPONSIVE OUR NETWORK OF CARE ================= */
-
-/* Large Laptops & Small Desktops */
-@media (max-width: 1440px) {
-  .network-wrapper {
-    padding: 72px 32px;
-  }
-
-  .network-left h2 {
-    font-size: 36px;
-  }
-
-  .network-stats h1 {
-    font-size: 72px;
-  }
-
-  .network-stats p {
-    font-size: 36px;
-  }
+  margin-bottom: 20px;
 }
 
-/* Tablets & Large Tablets */
-@media (max-width: 1199px) {
-  .network-container {
-    gap: 32px;
-  }
-
-  .network-left {
-    width: 340px;
-  }
-
-  .location-pill,
-  .location-pill.active {
-    font-size: 20px;
-    padding: 10px 16px;
-  }
-
-  .network-map {
-    height: 640px;
-  }
+.phone-badge img {
+  width: 18px;
+  height: 18px;
 }
 
-/* Tablets */
-@media (max-width: 1023px) {
-  .network-wrapper {
-    padding: 64px 24px;
-  }
+/* ADDRESS CARD */
+.address-card {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
 
+  background: #302d31;
+  color: #fff;
+
+  padding: 16px 18px;
+  border-radius: 14px;
+
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.location-icon {
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1024px) {
   .network-container {
     flex-direction: column;
   }
@@ -147,214 +122,39 @@
     width: 100%;
   }
 
-  .location-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .network-stats {
-    margin-top: 32px;
-  }
-
-  .network-stats h1 {
-    font-size: 64px;
-  }
-
-  .network-stats p {
-    font-size: 32px;
-  }
-
-  .network-map {
-    height: 520px;
+  .network-card {
+    width: 100%;
   }
 }
 
-/* Large Mobile / iPhone / Nothing */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .network-wrapper {
     padding: 48px 20px;
   }
 
   .network-left h2 {
-    font-size: 28px;
     text-align: center;
+    font-size: 28px;
   }
 
   .location-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 12px;
   }
 
-  .location-pill,
-  .location-pill.active {
-    font-size: 16px;
-    padding: 10px 12px;
+  .network-card {
+    padding: 24px;
   }
 
-  .network-stats {
-    text-align: center;
+  .card-title {
+    font-size: 26px;
   }
 
-  .network-stats h1 {
-    font-size: 52px;
+  .phone-badge {
+    font-size: 14px;
+    padding: 10px 14px;
   }
 
-  .network-stats p {
-    font-size: 24px;
+  .address-card {
+    font-size: 14px;
   }
-
-  .network-map {
-    height: 420px;
-  }
-
-  .map-phone-badge {
-    font-size: 10px;
-    padding: 6px 8px;
-    top: 4px;
-    right: 4px;
-  }
-}
-
-/* Small Mobile */
-@media (max-width: 480px) {
-  .network-wrapper {
-    padding: 40px 16px;
-  }
-
-  .network-left h2 {
-    font-size: 24px;
-  }
-
- 
-
-  .location-pill,
-  .location-pill.active {
-    font-size: 15px;
-  }
-
-  .network-stats h1 {
-    font-size: 44px;
-  }
-
-  .network-stats p {
-    font-size: 20px;
-  }
-
-  .network-map {
-    height: 360px;
-  }
-
-  .map-phone-badge {
-    font-size: 13px;
-  }
-}
-
-/* Very Small Devices */
-@media (max-width: 360px) {
-  .network-left h2 {
-    font-size: 22px;
-  }
-
-  .network-map {
-    height: 320px;
-  }
-}
-
-/* Large Desktop / Wide Screens */
-@media (min-width: 1680px) {
-  .network-wrapper {
-    padding: 96px 40px;
-  }
-
-  .network-left h2 {
-    font-size: 44px;
-  }
-
-  .network-stats h1 {
-    font-size: 88px;
-  }
-
-  .network-stats p {
-    font-size: 44px;
-  }
-
-  .network-map {
-    height: 760px;
-  }
-}
-.map-phone-badge {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  text-decoration: none;
-}
-
-.call-icon {
-  width: 22px;
-  height: 22px;
-}
-.nearest-text {
-  color: darkgreen;
-  /* font-size: 24px; */
-  font-weight: 800;
-  text-decoration: none;
-}
-
-
-.map-phone-badge {
-  position: absolute;
-  bottom: 120px;   /* 👈 move to bottom like screenshot */
-  left: 20px;
-
-  background: rgba(48, 45, 49, 1);
-  color: #fff;
-
-  padding: 10px 16px;
-  border-radius: 14px;
-
-  font-size: 16px;
-  font-weight: 700;
-
-  display: flex;
-  align-items: center;
-  gap: 8px;
-
-  z-index: 10;
-}
-
-.map-address {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-  right: 20px;
-
-  background: rgba(48, 45, 49, 1);
-  color: #fff;
-
-  padding: 18px;
-  border-radius: 16px;
-
-  font-size: 15px;
-  font-weight: 500;
-
-  line-height: 1.5;
-}
-
-.address-row {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-}
-
-.location-dot {
-  font-size: 18px;
-  margin-top: 2px;
-}
-
-.network-map {
-  flex: 1;
-  position: relative;
-  border-radius: 20px;
-  overflow: hidden;
-  height: 720px;
-  background: #000; /* fallback */
 }

@@ -33,7 +33,7 @@ const Navbar = () => {
           {/* BUTTON */}
           <button
             className="appointment-btn"
-            onClick={() => navigate("/knowMore")}
+            onClick={() => navigate("/contactUs")}
           >
             Book an Appointment
           </button>

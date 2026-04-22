@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./HeroCarousel.css";
 
-import slide1Desktop from "../../../assets/slide img.png";
+import slide1Desktop from "../../../assets/car.webp";
 import slide1Tablet from "../../../assets/ICTC Creatives_laptop.jpg";
 import slide1Mobile from "../../../assets/ICTC Creatives_mobile.jpg";
 
@@ -68,11 +68,11 @@ const HeroCarousel = () => {
             Locate Centre <span>→</span>
           </button> */}
 
-          <button className="cta-btn white" onClick={() => navigate("/BookAppoinment")}>
+          <button className="cta-btn white" onClick={() => navigate("/contactUs")}>
             Book an Appointment <span>→</span>
           </button>
 
-          <button className="cta-btn grey" onClick={() => navigate("/BookSecondOpinion")}>
+          <button className="cta-btn grey" onClick={() => navigate("/contactUs")}>
             Get Second Opinion <span>→</span>
           </button>
         </div>

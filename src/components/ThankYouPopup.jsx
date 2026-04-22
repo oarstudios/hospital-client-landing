@@ -19,7 +19,7 @@ const ThankYouPopup = ({ open, onClose }) => {
         <h3>Thank You!</h3>
 
         <p className="thankyou-text">
-          We’ve received your <strong>appointment request.</strong>
+          We’ve received your <strong>request.</strong>
           <br />
           Our team will reach out to you shortly with the details.
         </p>

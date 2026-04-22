@@ -2,12 +2,11 @@ import { useState } from "react";
 import "./OurNetworkOfCare.css";
 import callIcon from "../../../assets/fluent_call-16-filled.png";
 import centerData from "../../../data/centerData";
-import mapImage from "../../../assets/map.png";
 
 const centres = Object.values(centerData);
 
 const OurNetworkOfCare = () => {
-  const [activeCentre, setActiveCentre] = useState(centres[0]); // ✅ simple state
+  const [activeCentre, setActiveCentre] = useState(centres[0]);
 
   return (
     <section className="network-wrapper">
@@ -30,50 +29,36 @@ const OurNetworkOfCare = () => {
               </button>
             ))}
           </div>
-
-          <div className="network-stats">
-            <h1>{centres.length}</h1>
-            <p>
-              Centres throughout
-              <br />
-              Mumbai & Growing
-            </p>
-          </div>
         </div>
 
-        {/* RIGHT */}
-      {/* RIGHT */}
-<div className="network-map">
+        {/* RIGHT CARD */}
+        <div className="network-card">
 
-  {/* MAP IMAGE */}
- <img
-  src={mapImage}
-  alt="Map"
-  className="static-map"
-/>
+          {/* TITLE */}
+          <h2 className="card-title">
+            {activeCentre.name}
+          </h2>
 
-  {/* PHONE BADGE (TOP LEFT like screenshot) */}
-  <div className="map-phone-badge">
-    <img src={callIcon} alt="Call" className="call-icon" />
-    <span>
-      {activeCentre.name.replace("ICTC ", "")}: {activeCentre.phone}
-    </span>
-  </div>
+          {/* PHONE */}
+          <div className="phone-badge">
+            <img src={callIcon} alt="Call" />
+            <span>
+              {activeCentre.name.replace("ICTC ", "")}: {activeCentre.phone}
+            </span>
+          </div>
 
-  {/* ADDRESS BOX (BOTTOM BIG CARD) */}
-  <div className="map-address">
-    <div className="address-row">
-      <span className="location-dot">📍</span>
-      <span>
-        <strong>
-          {activeCentre.name.replace("ICTC ", "")}:
-        </strong>{" "}
-        {activeCentre.address}
-      </span>
-    </div>
-  </div>
+          {/* ADDRESS */}
+          <div className="address-card">
+            <span className="location-icon">📍</span>
+            <span>
+              <strong>
+                {activeCentre.name.replace("ICTC ", "")}:
+              </strong>{" "}
+              {activeCentre.address}
+            </span>
+          </div>
 
-</div>
+        </div>
       </div>
     </section>
   );

@@ -35,14 +35,14 @@ function App() {
         <MeetOurExperts />
         <BookAppointment />
         <OurNetworkOfCare />
-        <RequestCallback />
+        {/* <RequestCallback /> */}
         <Footer />
       </>
     }
   />
 
   {/* ✅ FIXED NESTED ROUTE */}
-  <Route path="/knowMore">
+  <Route path="/contactUs">
     
     {/* Main Page */}
     <Route

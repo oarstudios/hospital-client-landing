@@ -112,7 +112,7 @@ const BookAppointment = () => {
       <section className="appointment-wrapper">
         <div className="appointment-card">
           <div className="appointment-form">
-            <h2>Book an Appointment</h2>
+            <h2>Contact Us Now</h2>
 
             <p className="section-label">Patient Details</p>
 
