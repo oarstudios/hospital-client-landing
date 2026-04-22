@@ -68,6 +68,17 @@ function App() {
 
   </Route>
 
+  {/* SUCCESS ROUTE FOR HOME PAGE SUBMISSIONS */}
+  <Route
+    path="/success"
+    element={
+      <>
+        <BookAppointment />
+        <Footer />
+      </>
+    }
+  />
+
 </Routes>
       </main>
     </>
