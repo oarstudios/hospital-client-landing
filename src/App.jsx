@@ -20,39 +20,55 @@ function App() {
       <ScrollToTop />
 
       <main className="app-layout">
-        <Routes>
+    <Routes>
 
-          {/* HOME */}
-          <Route
-            path="/"
-            element={
-              <>
-                <HeroCarousel />
-                <AboutUs />
-                <WhyChooseICTCImage />
-                <CancersWeTreat />
-                <ServicesatICTC />
-                <MeetOurExperts />
-                <BookAppointment />
-                <OurNetworkOfCare />
-                <RequestCallback />
-                <Footer />
-              </>
-            }
-          />
+  {/* HOME */}
+  <Route
+    path="/"
+    element={
+      <>
+        <HeroCarousel />
+        <AboutUs />
+        <WhyChooseICTCImage />
+        <CancersWeTreat />
+        <ServicesatICTC />
+        <MeetOurExperts />
+        <BookAppointment />
+        <OurNetworkOfCare />
+        <RequestCallback />
+        <Footer />
+      </>
+    }
+  />
 
-          {/* ✅ NEW PAGE */}
-          <Route
-            path="/knowMore"
-            element={
-              <>
-                <BookAppointment />
-                <Footer />
-              </>
-            }
-          />
+  {/* ✅ FIXED NESTED ROUTE */}
+  <Route path="/knowMore">
+    
+    {/* Main Page */}
+    <Route
+      index
+      element={
+        <>
+          <BookAppointment />
+          <Footer />
+        </>
+      }
+    />
 
-        </Routes>
+    {/* Success Page */}
+    <Route
+      path="success"
+      element={
+        <>
+          <BookAppointment />
+          <Footer />
+        </>
+      }
+    />
+
+  </Route>
+
+</Routes>
       </main>
     </>
   );

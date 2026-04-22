@@ -12,7 +12,7 @@ const BookAppointment = () => {
     patientname: "",
     age: "",
     phone: "",
-    source: "Website_Form",
+    source: "Landing_Website_Form",
   });
 
   const [errors, setErrors] = useState({});
@@ -66,7 +66,7 @@ const BookAppointment = () => {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbwvMAutv6LdpzjigmueH0mBXUXNBn0YYh7zhQgLl4BoJ6fldYbuFH_SSBqB4-5U44aw/exec",
+        "https://script.google.com/macros/s/AKfycbwFy2DrEnNXB3k_WPEDNBjmlNEd_oDRTXCHZZHZvaxPvpcO2vMURb0FRVYatabmM_vd/exec",
         {
           method: "POST",
           headers: {
@@ -83,7 +83,7 @@ const BookAppointment = () => {
           patientname: "",
           age: "",
           phone: "",
-          source: "Website_Form",
+          source: "Landing_Website_Form",
         });
         setErrors({});
         navigate("success", { replace: false });
