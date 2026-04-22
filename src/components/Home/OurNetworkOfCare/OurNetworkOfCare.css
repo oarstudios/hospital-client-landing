@@ -51,19 +51,20 @@
 
 .network-card {
   flex: 1;
-  background: #b89ec6;
+  background: #D1B0E0;
   border-radius: 20px;
   padding: 40px;
   position: relative;
   min-height: 360px;
+  text-align: center;
 }
 
 /* TITLE */
 .card-title {
   text-align: center;
-  font-size: 34px;
+  font-size: 48px;
   font-weight: 700;
-  color: #3f224a;
+  color: #3F224A;
   margin-bottom: 10rem;
 }
 
@@ -79,8 +80,8 @@
   padding: 12px 18px;
   border-radius: 14px;
 
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 700;
 
   margin-bottom: 20px;
 }
@@ -94,20 +95,22 @@
 .address-card {
   display: flex;
   gap: 10px;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 
   background: #302d31;
   color: #fff;
 
   padding: 16px 18px;
   border-radius: 14px;
-
-  font-size: 15px;
+  font-weight: 400;
+  font-size: 20px;
   line-height: 1.5;
 }
 
 .location-icon {
-  font-size: 18px;
+  font-size: 24px;
   margin-top: 2px;
 }
 

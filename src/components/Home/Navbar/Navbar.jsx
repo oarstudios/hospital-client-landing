@@ -26,7 +26,7 @@ const Navbar = () => {
         <nav className="navbar">
 
           {/* LOGO */}
-          <div className="logo">
+          <div className="logo" onClick={() => navigate("/")} style={{ cursor: "pointer" }}>
             <img src={logo} alt="ICTC Logo" />
           </div>
 

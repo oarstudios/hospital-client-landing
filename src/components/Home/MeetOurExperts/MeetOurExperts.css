@@ -8,7 +8,7 @@
 /* HEADER */
 .experts-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin-bottom: 40px;
 }
@@ -16,6 +16,7 @@
 .experts-header h2 {
   font-size: 40px;
   font-weight: 700;
+  text-align: center;
   color: rgba(63, 34, 74, 1);
 }
 

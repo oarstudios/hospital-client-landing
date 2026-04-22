@@ -8,7 +8,7 @@ const doctors = Object.values(doctorData);
     <section className="experts-section">
       {/* HEADER */}
       <div className="experts-header">
-        <h2>Meet Our Experts</h2>
+        <h2>Our Team of Experts</h2>
       </div>
 
       {/* GRID (same class name) */}
@@ -24,7 +24,7 @@ const doctors = Object.values(doctorData);
 
               <div className="doctor-hover">
                 <button className="view-profile-btn">
-                  View Complete Profile <span>→</span>
+                  Learn More <span>→</span>
                 </button>
               </div>
             </div>

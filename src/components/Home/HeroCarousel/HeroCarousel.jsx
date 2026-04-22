@@ -3,8 +3,8 @@ import { useNavigate } from "react-router-dom";
 import "./HeroCarousel.css";
 
 import slide1Desktop from "../../../assets/car.webp";
-import slide1Tablet from "../../../assets/ICTC Creatives_laptop.jpg";
-import slide1Mobile from "../../../assets/ICTC Creatives_mobile.jpg";
+import slide1Tablet from "../../../assets/car_tab.webp";
+import slide1Mobile from "../../../assets/car_mob.webp";
 
 const slides = [
   {
@@ -73,7 +73,7 @@ const HeroCarousel = () => {
           </button>
 
           <button className="cta-btn grey" onClick={() => navigate("/contactUs")}>
-            Get Second Opinion <span>→</span>
+            Get in touch with Us <span>→</span>
           </button>
         </div>
       )}
