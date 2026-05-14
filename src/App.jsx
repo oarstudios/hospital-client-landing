@@ -12,6 +12,7 @@ import RequestCallback from "./components/Home/RequestCallback/RequestCallback";
 import OurNetworkOfCare from "./components/Home/OurNetworkOfCare/OurNetworkOfCare";
 import ScrollToTop from "./components/Common/ScrollToTop";
 import Footer from "./components/Home/Footer/Footer";
+import NotFoundPage from "./components/NotFoundPage/NotFoundPage";
 
 function App() {
   return (
@@ -78,6 +79,9 @@ function App() {
       </>
     }
   />
+
+  {/* 404 NOT FOUND - CATCH ALL ROUTES */}
+  <Route path="*" element={<NotFoundPage />} />
 
 </Routes>
       </main>

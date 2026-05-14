@@ -399,7 +399,7 @@ lng: 72.8878,
     rating: "4.9",
     reviews: "100+ Ratings",
 
-    phone: "+91 9699711195", // add correct number
+    phone: "+91 7977225902", // add correct number
 
     mapQuery: "ICTC Cancer Care Centre Thane",
     mapEmbed: "", // paste your Google map embed link here
