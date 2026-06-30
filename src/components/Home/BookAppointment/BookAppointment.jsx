@@ -8,12 +8,16 @@ const BookAppointment = () => {
   /* ============================
      STATE
   ============================ */
-  const [formData, setFormData] = useState({
-    patientname: "",
-    age: "",
-    phone: "",
-    source: "Landing_Website_Form",
-  });
+const [formData, setFormData] = useState({
+  patientname: "",
+  age: "",
+  area: "",
+  center: "",
+  phone: "",
+  notes: "",
+  status: "New",
+  source: "Landing_Website_Form",
+});
 
   const [errors, setErrors] = useState({});
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -66,7 +70,7 @@ const BookAppointment = () => {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbwFy2DrEnNXB3k_WPEDNBjmlNEd_oDRTXCHZZHZvaxPvpcO2vMURb0FRVYatabmM_vd/exec",
+        "https://script.google.com/macros/s/AKfycbwlpXy-uDI44brpz1WMP_jmfbI08c5MVxBjni6ga9pN7uIB0ZrvXkPsPDeTnFqnjVpu/exec",
         {
           method: "POST",
           headers: {
@@ -80,11 +84,15 @@ const BookAppointment = () => {
 
       if (result.status === "success") {
         setFormData({
-          patientname: "",
-          age: "",
-          phone: "",
-          source: "Landing_Website_Form",
-        });
+  patientname: "",
+  age: "",
+  area: "",
+  center: "",
+  phone: "",
+  notes: "",
+  status: "New",
+  source: "Landing_Website_Form",
+});
         setErrors({});
         navigate("success", { replace: false });
       } else {
