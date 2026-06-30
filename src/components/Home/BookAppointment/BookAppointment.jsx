@@ -66,7 +66,7 @@ const BookAppointment = () => {
 
     try {
       const response = await fetch(
-        "https://script.google.com/macros/s/AKfycbwFy2DrEnNXB3k_WPEDNBjmlNEd_oDRTXCHZZHZvaxPvpcO2vMURb0FRVYatabmM_vd/exec",
+        "https://script.google.com/macros/s/AKfycbz4Mp1xi1DrDunJaclrDbdi14_GbLPNEzvMqJJYWLz2_knrSqhG1C-jQb93ohNP0WZXFw/exec",
         {
           method: "POST",
           headers: {
